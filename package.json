@@ -1,0 +1,22 @@
+{
+  "name": "simple-brunch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "brunch watch -d --server",
+    "build-dev": "brunch build -d",
+    "build": "brunch build -d --production"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3"
+  },
+  "devDependencies": {
+    "babel-brunch": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "javascript-brunch": "^2",
+    "sass-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
